@@ -1,0 +1,15 @@
+# yt-dlp defaults
+# Options here are parsed BEFORE the command line, so anything you type
+# on the command line overrides these.
+
+# Cap video at 720p: best video <=720p + best audio, falling back to the
+# best pre-merged file <=720p when separate streams aren't available.
+-f bv*[height<=720]+ba/b[height<=720]
+
+# Frame-accurate cuts when using --download-sections.
+# No effect on normal downloads; re-encodes (slower) only when sections are used.
+--force-keyframes-at-cuts
+
+# Carry title/artist/etc. and cover art into the output file.
+--embed-metadata
+--embed-thumbnail

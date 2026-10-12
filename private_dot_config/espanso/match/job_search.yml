@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  # Launch School Capstone connection form letter
+  - trigger: ":hils"
+    form: Hi [[name]], I recently finished Capstone and I'm looking to connect with other Capstone grads!

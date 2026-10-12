@@ -1,0 +1,6 @@
+[ -r ~/.bashrc ] && . ~/.bashrc  # be careful with the spaces
+# Added by `rbenv init` on Wed Jun 19 07:18:59 EDT 2024
+eval "$(~/.rbenv/bin/rbenv init - bash)"
+
+export PATH="$PATH:$HOME/.local/bin"
+[ -f "$HOME/.deno/env" ] && . "$HOME/.deno/env"

@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+
+
+matches:
+  # Simple text replacement
+  - trigger: ":qa"
+    replace: "Please fact check the following:    QUESTION:    ANSWER:  "
+
+  - trigger: ":source"
+    replace: "Please do a web search and confirm your assertion(s) with official documentation and/or authoritative sources.  A random blogger or medium post is NOT considered an authoritative source."

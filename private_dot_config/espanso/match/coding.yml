@@ -1,0 +1,90 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+
+matches:
+  - trigger: ":// "
+    replace: |
+      //////////////////////////////////////////////////////////////////////////////
+      // tktk
+  
+  - trigger: ":html " 
+    replace: |
+      <!DOCTYPE html>
+      <html lang="en">
+
+      <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script src="./my-solve.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      </head>
+
+      <body>
+
+      </body>
+
+      </html>
+
+  - trigger: ":pedac "
+    replace: |
+      //////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////
+      P
+        Summary: 
+        Inputs: 
+        Output: 
+        Return: 
+        Side Effects: 
+        Requirements: 
+      E
+      D
+      A
+        Idea 1:
+
+        Idea 2:
+
+        Idea 3:
+      //////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////
+
+  - trigger: ":pedaclong "
+    replace: |
+      //////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////
+      P
+        Problem Summary:
+
+        Inputs:
+          - 
+          - 
+        Output:
+        Return:
+        Side-effects:
+          - 
+          - 
+
+        Requirements:
+          Explict:
+            - 
+            - 
+            - 
+          Implicit:
+            - 
+            - 
+            - 
+      E
+        Edge Cases
+
+        Happy Path
+
+      D
+        
+      A
+        IDEA 1:
+
+        IDEA 2:
+
+        IDEA 3:
+        
+      //////////////////////////////////////////////////////////////////////////////
+      //////////////////////////////////////////////////////////////////////////////

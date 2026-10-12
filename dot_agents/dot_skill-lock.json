@@ -1,0 +1,204 @@
+{
+  "version": 3,
+  "skills": {
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-05-26T17:04:35.276Z",
+      "updatedAt": "2026-05-26T17:04:35.276Z"
+    },
+    "gsap-core": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-core/SKILL.md",
+      "skillFolderHash": "135754edd728103e329a8df8b471b197375b370e",
+      "installedAt": "2026-06-17T16:43:48.774Z",
+      "updatedAt": "2026-06-17T16:43:48.774Z"
+    },
+    "gsap-react": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-react/SKILL.md",
+      "skillFolderHash": "ac01a338b96fddbc6cf65a89858d2e6068887b39",
+      "installedAt": "2026-06-17T16:43:48.781Z",
+      "updatedAt": "2026-06-17T16:43:48.781Z"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-performance/SKILL.md",
+      "skillFolderHash": "34dec2f051872f8d02df06de97450e448bac9c5e",
+      "installedAt": "2026-06-17T16:43:48.785Z",
+      "updatedAt": "2026-06-17T16:43:48.785Z"
+    },
+    "gsap-plugins": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-plugins/SKILL.md",
+      "skillFolderHash": "e31ccbdb75cf41f0e7df0fec567f6e07956eaca9",
+      "installedAt": "2026-06-17T16:43:48.787Z",
+      "updatedAt": "2026-06-17T16:43:48.787Z"
+    },
+    "gsap-scrolltrigger": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-scrolltrigger/SKILL.md",
+      "skillFolderHash": "7838f515e05bfab0a79dd63368a409ddc7d76ee6",
+      "installedAt": "2026-06-17T16:43:48.789Z",
+      "updatedAt": "2026-06-17T16:43:48.789Z"
+    },
+    "gsap-timeline": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-timeline/SKILL.md",
+      "skillFolderHash": "37eb5d623c3e14367864d57160acb64f13950994",
+      "installedAt": "2026-06-17T16:43:48.792Z",
+      "updatedAt": "2026-06-17T16:43:48.792Z"
+    },
+    "gsap-utils": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/greensock/gsap-skills.git",
+      "skillPath": "skills/gsap-utils/SKILL.md",
+      "skillFolderHash": "3f7aa617dd2dc7ebf21f30349b9c7b6d8640d789",
+      "installedAt": "2026-06-17T16:43:48.795Z",
+      "updatedAt": "2026-06-17T16:43:48.795Z"
+    },
+    "create-pr": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/create-pr/SKILL.md",
+      "skillFolderHash": "e4f149d0dc684974ac2349d7b6cb985d2c8080e6",
+      "installedAt": "2026-06-29T18:42:40.194Z",
+      "updatedAt": "2026-06-29T18:42:40.194Z"
+    },
+    "diagnose": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/diagnose/SKILL.md",
+      "skillFolderHash": "bef817c558c9209303b6163f0413336f881c72bd",
+      "installedAt": "2026-06-29T18:42:40.197Z",
+      "updatedAt": "2026-06-29T18:42:40.197Z"
+    },
+    "handoff": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/handoff/SKILL.md",
+      "skillFolderHash": "8a4a8a11fb545197432a4d89aa1cdb3400763be1",
+      "installedAt": "2026-06-29T18:42:40.205Z",
+      "updatedAt": "2026-06-29T18:42:40.205Z"
+    },
+    "implement-next-task": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/implement-next-task/SKILL.md",
+      "skillFolderHash": "9f0c49b4f384b17b251f6c868503981cb5e9b34a",
+      "installedAt": "2026-06-29T18:42:40.207Z",
+      "updatedAt": "2026-06-29T18:42:40.207Z"
+    },
+    "sync-main": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/sync-main/SKILL.md",
+      "skillFolderHash": "2338c323e80fedb43e4e7682c97e8a8181914e1a",
+      "installedAt": "2026-06-29T18:42:40.209Z",
+      "updatedAt": "2026-06-29T18:42:40.209Z"
+    },
+    "talk-it-through": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/talk-it-through/SKILL.md",
+      "skillFolderHash": "3f5684daaf3b686da9a53b00e029657a5272e99b",
+      "installedAt": "2026-06-29T18:42:40.211Z",
+      "updatedAt": "2026-06-29T18:42:40.211Z"
+    },
+    "task-review": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/task-review/SKILL.md",
+      "skillFolderHash": "b5a07feab735a73c07cd135e2396f840730c01dd",
+      "installedAt": "2026-06-29T18:42:40.213Z",
+      "updatedAt": "2026-06-29T18:42:40.213Z"
+    },
+    "tdd": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/tdd/SKILL.md",
+      "skillFolderHash": "75beb3030b4c979205dd771ff85ac600baeb68f4",
+      "installedAt": "2026-06-29T18:42:40.216Z",
+      "updatedAt": "2026-06-29T18:42:40.216Z"
+    },
+    "teach": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/teach/SKILL.md",
+      "skillFolderHash": "0397d021f4bcee23148c1940dde5a14acebb39bf",
+      "installedAt": "2026-06-29T18:42:40.218Z",
+      "updatedAt": "2026-06-29T18:42:40.218Z"
+    },
+    "to-plan": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/to-plan/SKILL.md",
+      "skillFolderHash": "5bb3ad6d1768b25e4df8277734040bcaecb451c2",
+      "installedAt": "2026-06-29T18:42:40.221Z",
+      "updatedAt": "2026-06-29T18:42:40.221Z"
+    },
+    "write-a-prd": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/write-a-prd/SKILL.md",
+      "skillFolderHash": "f5d6e1f81b5c95c43762648aa68f5e1094ad27ed",
+      "installedAt": "2026-06-29T18:42:40.224Z",
+      "updatedAt": "2026-06-29T18:42:40.224Z"
+    },
+    "write-well": {
+      "source": "svalenziano/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/svalenziano/skills.git",
+      "skillPath": "skills/write-well/SKILL.md",
+      "skillFolderHash": "5936131795e15d1a53fd8b2c79a253ecdac91cfc",
+      "installedAt": "2026-06-29T18:42:40.226Z",
+      "updatedAt": "2026-06-29T18:42:40.226Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "antigravity-cli",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-code-cli",
+    "opencode",
+    "warp",
+    "zed",
+    "claude-code"
+  ]
+}

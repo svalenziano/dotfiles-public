@@ -1,0 +1,6 @@
+customCommands:
+  containers:
+    - name: errors
+      attach: true
+      command: sh -c "docker logs --tail 500 -f {{ .Container.ID }} 2>&1 | grep --line-buffered -iE 'error|warn|fatal|exception'"
+      serviceNames: []

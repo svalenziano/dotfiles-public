@@ -1,0 +1,48 @@
+
+
+
+matches:
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  - trigger: ":myName"
+    replace: ">>> {{myshell}}"
+    vars:
+      - name: myname
+        type: echo
+        params:
+          echo: "John"
+      - name: myshell
+        type: shell
+        params:
+          cmd: "echo $ESPANSO_MYNAME"
+
+  - trigger: ":testScript1"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/scripts/test.py"
+
+  # Inline script, see https://espanso.org/docs/matches/extensions/#inline-scripts
+  - trigger: ":inlineScript"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - -c
+            - |
+              print("Hello")
+              print("World!")

@@ -1,0 +1,12 @@
+sudo apt install avahi-daemon avahi-utils
+sudo systemctl enable --now avahi-daemon
+sudo systemctl enable --now ssh
+sudo ufw allow 22
+
+echo "//////////////////////////////////////////////////////////////////////////////"
+echo "IP address:"
+hostname -I
+echo ""
+echo "//////////////////////////////////////////////////////////////////////////////"
+echo "hostname info:"
+hostnamectl

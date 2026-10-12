@@ -1,0 +1,26 @@
+[init]
+	defaultBranch = main
+[user]
+	name = SValenziano
+	email = senorvalenz@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[merge]
+    tool = vscode
+[mergetool "vscod"]
+    # Choose one of these two lines (not both!) explained below.
+    cmd = vscode "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+    # cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+
+[core]
+	excludesFile = ~/.gitignore

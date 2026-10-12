@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+  cat <<'EOF'
+Usage: extract-yt-urls [FILE]
+       <command> | extract-yt-urls
+
+Extract YouTube URLs from text and print them one per line (deduplicated).
+
+Examples:
+  extract-yt-urls                        # paste text, then Ctrl+D
+  extract-yt-urls notes.txt              # from a file
+  echo "..." | extract-yt-urls           # pipe a string
+  wl-paste | extract-yt-urls             # from clipboard (Wayland)
+  xclip -o | extract-yt-urls             # from clipboard (X11)
+
+  # pipe into yt-dlp:
+  extract-yt-urls notes.txt | yt-dlp -a -
+EOF
+  exit 0
+fi
+
+if [[ $# -eq 0 ]]; then
+  echo "Paste your text here and then do Ctrl+D. For help, re-run using the -h flag" >&2
+fi
+
+input="${1:-/dev/stdin}"
+
+grep -oP 'https?://(www\.|m\.)?youtube\.com/(watch\?[^[:space:]]*v=[A-Za-z0-9_-]+|shorts/[A-Za-z0-9_-]+)|https?://youtu\.be/[A-Za-z0-9_-]+' "$input" \
+  | sort -u

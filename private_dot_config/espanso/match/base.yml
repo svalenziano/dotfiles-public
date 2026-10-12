@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+# espanso match file
+#
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+#
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+#
+# NOTE: personal identity snippets (name, email, phone, address, links) live in
+# `identity.yml`, which is deliberately gitignored so it stays out of the public
+# repo. See README.md.
+
+global_vars:
+  - name: espansoDirectory
+    type: echo
+    params:
+      echo: "%appdata%\\espanso\\"
+
+matches:
+  - trigger: ":espanso"
+    replace: "{{espansoDirectory}}"
+
+  - trigger: ":ll "  # LINK LOG
+    replace: "🟢 LL - "
+
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+

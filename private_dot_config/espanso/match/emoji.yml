@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+# espanso match file
+
+
+matches:
+  # Simple text replacement
+  - trigger: ":up"
+    replace: "👍"
+  
+  - trigger: ":down"
+    replace: "👎" 
+
+  - trigger: ":pup"
+    replace: "☝️"   
+    
+  - trigger: ":pdn"
+    replace: "👇"   
+
+  - trigger: ":laugh"
+    replace: "😂"   
+
+  - trigger: ":hug"
+    replace: "🫂"   
+
+  - trigger: ":pray"
+    replace: "🙏"  
+
+  - trigger: ":red"
+    replace: "🔴" 
+
+  - trigger: ":yel"
+    replace: "🟡"   
+
+  - trigger: ":grn"
+    replace: "🟢"   
+
+  - trigger: ":sweat"
+    replace: "😅" 
+
+  - trigger: ":turtle"
+    replace: "🐢" 
+
+  - trigger: ":snake"
+    replace: "🐍"
+
+  - trigger: ":rad"
+    replace: "🤘"
+
+  - trigger: ":nerd"
+    replace: "🤓"
+    
+  - trigger: ":left"
+    replace: "👈"
+    
+  - trigger: ":right"
+    replace: "👉"
+        
+  - trigger: ":smile"
+    replace: "🙂"
+        
+  - trigger: ":sad"
+    replace: "☹️"
+
+  - trigger: ":tear"
+    replace: "🥲"
+
+  - trigger: ":party"
+    replace: "🎉"
+
+  - trigger: ":sparkle"
+    replace: "✨"    
+
+  - trigger: ":check"
+    replace: "✅"    
+
+  - trigger: ":x"
+    replace: "❌"    
+
+  - trigger: ":wave"
+    replace: "👋"    
+
+  - trigger: ":strong"
+    replace: "💪"    

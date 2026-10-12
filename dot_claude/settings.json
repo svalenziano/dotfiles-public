@@ -1,0 +1,53 @@
+{
+  "cleanupPeriodDays": 360,
+  "permissions": {
+    "deny": [
+      "Read(./private)",
+      "Read(./secrets/**)"
+    ]
+  },
+  "model": "Opus",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Notification!!!' >> ~/temp.txt"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Noti-hook!' >> ~/temp.txt"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "honeycomb@honeycomb-plugins": true
+  },
+  "extraKnownMarketplaces": {
+    "honeycomb-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "honeycombio/agent-skill"
+      }
+    }
+  },
+  "effortLevel": "medium",
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}

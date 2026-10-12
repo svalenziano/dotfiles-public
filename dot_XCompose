@@ -1,0 +1,8 @@
+include "%H/.local/share/omakub/defaults/xcompose"
+
+# use `ibus restart` to reload
+
+# Identification
+<Multi_key> <space> <n> : "SValenziano"
+<Multi_key> <space> <e> : "senorvalenz@gmail.com"
+
